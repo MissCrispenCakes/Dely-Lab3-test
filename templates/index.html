@@ -1,0 +1,33 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css.css">
+<script src="js.js"></script>
+<title> Delvin Website </title>
+
+<body>
+<div class="section">
+
+<h1>Welcome To The Server!</h1>
+
+    <div class="video-container">
+        <div class="color-overlay"></div>
+        <video autoplay loop muted>
+            <source src="galaxy.mp4" type="video/mp4">
+        </video>
+        <div id="wrapper"></div>  
+
+    
+    </div>
+
+    <audio id="sound1" src="Sound/hello.mp3" preload="auto"></audio>
+    <button onclick="document.getElementById('sound1').play();" class="glow-on-hover" type="button">Hello</button>
+    <audio id="sound2" src="Sound/song.mp3" preload="auto"></audio>
+    <button onclick="document.getElementById('sound2').play();" class="glow-on-hover" type="button">Song</button>
+    <audio id="sound3" src="Sound/meme.mp3" preload="auto"></audio>
+    <button onclick="document.getElementById('sound3').play();" class="glow-on-hover" type="button">Meme</button>
+    <audio id="sound4" src="Sound/bye.mp3" preload="auto"></audio>
+    <button onclick="document.getElementById('sound4').play();" class="glow-on-hover" type="button">Bye</button>
+    
+<!-- The button will make a noise, this means the server is running and the button can be used. -->
+
+</body>
